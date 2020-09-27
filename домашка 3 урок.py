@@ -54,7 +54,7 @@ print (''.join(x for x in my_str if not x.isalnum()))
 
 #####################################################
 
-string = '**ст&рок/а'
+string = "**ст&рок/а"
 for symbol in string:
     if not symbol.isalnum():
-        print(symbol, end=' ', flush=True)
+        print(symbol, end=" ", flush=True)
